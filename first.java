@@ -11,9 +11,9 @@ public class first {
         for(int i = 0; i<n; i++){
             for (int j = i+1; j < n; j++) {
                 if(nums[i]<nums[j]){
-                    int temp = nums[i];
+                    int t = nums[i];
                     nums[i] = nums[j];
-                    nums[j] = temp;
+                    nums[j] = t;
                 }
             }
         }
