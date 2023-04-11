@@ -11,6 +11,7 @@ public class second {
             nums[i] = (int)Math.pow(nums[i],2);
         }
         //new commit
+        //helo
         
     }
 }
