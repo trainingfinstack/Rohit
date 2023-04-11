@@ -10,5 +10,7 @@ public class second {
         for(int i = 0; i<nums.length; i++){
             nums[i] = (int)Math.pow(nums[i],2);
         }
+        //new commit
+        
     }
 }
