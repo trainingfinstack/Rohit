@@ -3,19 +3,12 @@ import java.util.Arrays;
 public class second {
     public static void main(String[] args) {
         int[] arr ={3,4,2,1,5};
-        bubbleSort(arr);
-        System.out.println("Asscending order"+Arrays.toString(arr));
+        elementPow(arr);
+        System.out.println(Arrays.toString(arr));
     }
-    public static void bubbleSort(int[] nums){
-        int n = nums.length;
-        for(int i = 0; i<n; i++){
-            for (int j = i+1; j < n; j++) {
-                if(nums[i]>nums[j]){
-                    int temp = nums[i];
-                    nums[i] = nums[j];
-                    nums[j] = temp;
-                }
-            }
+    public static void elementPow(int[] nums){
+        for(int i = 0; i<nums.length; i++){
+            nums[i] = (int)Math.pow(nums[i],2);
         }
     }
 }
